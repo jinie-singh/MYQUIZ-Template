@@ -15,7 +15,6 @@ class Quiz {
     });
   }
 
-
   async start(){
     if(gameState === 0){
       contestant = new Contestant();
@@ -57,12 +56,12 @@ class Quiz {
         //   fill("red");
         // }
 
-        if (correctAns === allContestants[plr].answer){
-          fill("Green")
-        }
-        else{
-          fill("red");
-        }
+        //if (correctAns === allContestants[plr].answer){
+        //  fill("Green")
+        //}
+        //else{
+        //  fill("red");
+        //}
 
         // if (correctAns === allContestants[plr].answer){
         //   fill("red")
